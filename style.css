@@ -1,0 +1,73 @@
+body {
+  background-color: #AEAEAE;
+}
+
+.welcome-heading {
+ text-align: center;
+ font-size: 25px;
+ color: black;
+ margin-top: 1%;
+}
+
+.input-group-prepend {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group-text {
+  background-color: black;
+  color: #00e6e6;
+}
+
+#phone {
+ color:#00e6e6;
+ margin-top: 25px;
+ margin-left: 310px;
+}
+
+#email {
+ color: #00e6e6;
+ margin-top: 5px;
+ margin-left: 310px;
+}
+
+#submit-button {
+  background-color: black;
+  color:  #00e6e6;
+  margin-left: 522px;
+}
+
+#cancel-button {
+ background-color: black;
+ color:  red;
+ margin-right: 100px;
+}
+
+.aboutMe {
+  margin-top: 25px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+img {
+  margin-left: 68%;
+  width: 250px;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  img {
+      display: flex;
+      width: 125px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+p {
+  margin-top: 35px;
+  color: black;
+}
